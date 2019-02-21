@@ -27,7 +27,7 @@ class Movie extends React.Component{
                         <p><b>Description :</b> {this.props.movie.overview}</p>
                     </div>
                     <div className="btns">
-                        <input className="btn" onClick={this.viewMovie.bind(this)} type="button" value="View"/>
+                        <input className="btn" target="_blank" onClick={this.viewMovie.bind(this)} type="button" value="View"/>
                     </div>
                 </div> 
             </div>
