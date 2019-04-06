@@ -8,45 +8,6 @@ class App extends Component {
     super();
     this.state = {};
 
-  //   const movies = [
-  //     {id:0,title:'Avengers Infinity War',overview:'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born '},
-  //     {id:1,title:'Forrest Gump',overview:'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born '},
-  //     {id:2,title:'Green Mile',overview:'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born '}
-  //   ]
-
-  //   this.state = {
-  //     rows:[
-  //       <p>This is my row0</p>,
-  //       <p>This is my row1</p>,
-  //       <p>This is my row2</p>,
-  //       <p>This is my row3</p>
-  //     ]
-  //   };
-
-  //   var movieRows = [];
-
-  //   movies.forEach(movie =>{
-  //     console.log(movie.title);
-  //     const movieRow = <Movie movie={movie} />
-  //     // const movieRow = <table key={movie.id}>
-  //     //   <tbody>
-  //     //     <tr>
-  //     //       <td>
-  //     //         <img alt="pic" width="100" src="https://unsplash.it/400/400" />
-  //     //       </td>
-  //     //       <td>
-  //     //         {movie.title}
-  //     //         <p>{movie.overview}</p>
-  //     //       </td>
-  //     //     </tr>
-  //     //   </tbody>
-  //     // </table>
-  //     movieRows.push(movieRow);
-  //   });
-
-  //     this.state = {rows : movieRows};
-
-  // 
   this.performSearch();
 
 }
